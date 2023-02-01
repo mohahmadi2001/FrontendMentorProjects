@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Overpass;
+  src: url(https://fonts.google.com/specimen/Overpass);
+  font-weight: 400, 700;
+}
+body {
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.rate {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.circle_star {
+  background-color: hsl(216, 12%, 54%, 0.205);
+  padding: 5px;
+  border-radius: 50%;
+}
+.heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+}
+.pragraph {
+  color: hsl(217, 12%, 63%);
+  font-size: 13px;
+  line-height: 25px;
+}
+.rate_number {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(217, 12%, 63%);
+  margin: 25px 0;
+}
+.circle {
+  background-color: hsl(216, 12%, 54%, 0.205);
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px 18px;
+}
+.circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.circle:active {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+input[type="radio"] {
+  display: none;
+}
+#btn {
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  width: 100%;
+  border-radius: 21px;
+  padding: 10px 15px;
+  margin: 5px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 4px;
+  margin: auto;
+  font-weight: bold;
+}
+#btn:hover {
+  cursor: pointer;
+}
+#btn:active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.selected {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.thankyou {
+  text-align: center;
+  display: none;
+}
+.thankyou_image {
+  margin-bottom: 15px;
+}
+.rating {
+  background-color: hsl(216, 12%, 54%, 0.205);
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  padding: 0.4em 1.3em;
+  display: inline-block;
+  margin-bottom: 0.7em;
+}
