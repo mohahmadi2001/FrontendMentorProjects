@@ -97,3 +97,9 @@ input[type="radio"] {
   display: inline-block;
   margin-bottom: 0.7em;
 }
+@media all and (min-width: 500px) {
+  .rate {
+    padding: 1.9em;
+    width: 400px;
+  }
+}
